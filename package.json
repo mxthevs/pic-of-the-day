@@ -22,8 +22,9 @@
   },
   "homepage": "https://github.com/mxthevs/pic-of-the-day#readme",
   "dependencies": {
+    "axios": "^0.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "request": "^2.88.0"
+    "pug": "^2.0.4"
   }
 }

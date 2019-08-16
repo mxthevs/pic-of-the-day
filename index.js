@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
                 img_url: response.data.url,
                 explanation: response.data.explanation,
                 date: response.data.date
-            })
+            });
         })
         .catch((error) => { // se der erro, envie o erro
             res.send(error);

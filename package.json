@@ -1,0 +1,29 @@
+{
+  "name": "pic-of-the-day",
+  "version": "1.0.0",
+  "description": "Server Express consumindo API da Nasa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxthevs/pic-of-the-day.git"
+  },
+  "keywords": [
+    "Express",
+    "API",
+    "Nasa"
+  ],
+  "author": "Matheus Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxthevs/pic-of-the-day/issues"
+  },
+  "homepage": "https://github.com/mxthevs/pic-of-the-day#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
